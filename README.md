@@ -47,4 +47,4 @@ Machine Learning - Classification Metrics, Regression Metrics
 
 * The classification_report() function displays the precision, recall, f1-score and support for each class.
 
-*You can see good prediction and recall for the algorithm.
+* You can see good prediction and recall for the algorithm.
