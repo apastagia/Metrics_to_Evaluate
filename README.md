@@ -49,6 +49,7 @@ Machine Learning - Classification Metrics, Regression Metrics
 
 * You can see good prediction and recall for the algorithm.
 
+![Classification Report](https://user-images.githubusercontent.com/62986688/115344047-641cb200-a1ca-11eb-9d2c-b1e5f0c74534.png)
 
 
 ## Regression Metrics:
@@ -87,14 +88,19 @@ Machine Learning - Classification Metrics, Regression Metrics
 ## You learned about 3 classification metrics:
 
 Accuracy.
+
 Log Loss.
+
 Area Under ROC Curve.
 
 ## Also 2 convenience methods for classification prediction results:
 Confusion Matrix.
+
 Classification Report.
 
 ## And 3 regression metrics:
 Mean Absolute Error.
+
 Mean Squared Error.
+
 R^2.
