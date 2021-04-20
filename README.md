@@ -3,7 +3,7 @@ Machine Learning - Classification Metrics, Regression Metrics
 
 
 ## Classification Metrics:
-# How to use the following metrics:
+## How to use the following metrics:
 
 1. Classification Accuracy.
 2. Log Loss.
@@ -48,3 +48,53 @@ Machine Learning - Classification Metrics, Regression Metrics
 * The classification_report() function displays the precision, recall, f1-score and support for each class.
 
 * You can see good prediction and recall for the algorithm.
+
+
+
+## Regression Metrics:
+## How to use the following metrics:
+
+1. Mean Absolute Error.
+2. Mean Squared Error.
+3. R^2.
+
+## 1. Mean Absolute Error
+* The Mean Absolute Error (or MAE) is the average of the absolute differences between predictions and actual values. It gives an idea of how wrong the predictions were.
+
+* The measure gives an idea of the magnitude of the error, but no idea of the direction (e.g. over or under predicting).
+
+* A value of 0 indicates no error or perfect predictions.
+
+* Like logloss, this metric is inverted by the cross_val_score() function.
+
+## 2. Mean Squared Error
+* The Mean Squared Error (or MSE) is much like the mean absolute error in that it provides a gross idea of the magnitude of error.
+
+* Taking the square root of the mean squared error converts the units back to the original units of the output variable and can be meaningful for description and presentation. 
+
+* This is called the Root Mean Squared Error (or RMSE).
+
+* This metric too is inverted so that the results are increasing.
+
+## 3. R^2 Metric
+* The R^2 (or R Squared) metric provides an indication of the goodness of fit of a set of predictions to the actual values. In statistical literature, this measure is called the coefficient of determination.
+
+* This is a value between 0 and 1 for no-fit and perfect fit respectively.
+
+* You can see that the predictions have a poor fit to the actual values with a value close to zero and less than 0.5.
+
+# Summary
+## You learned about 3 classification metrics:
+
+Accuracy.
+Log Loss.
+Area Under ROC Curve.
+
+## Also 2 convenience methods for classification prediction results:
+Confusion Matrix.
+Classification Report.
+
+## And 3 regression metrics:
+Mean Absolute Error.
+Mean Squared Error.
+R^2.
